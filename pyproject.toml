@@ -1,0 +1,32 @@
+[project]
+name = "helixworld"
+version = "1.0.0.dev0"
+description = "HelixWorld: real-time interactive audio-visual world model (weights and code coming soon)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Noiz AI" }]
+keywords = [
+  "world-model",
+  "audio-visual",
+  "spatial-audio",
+  "generative-ai",
+  "realtime",
+]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/NoizAI/HelixWorld"
+Repository = "https://github.com/NoizAI/HelixWorld"
+Issues = "https://github.com/NoizAI/HelixWorld/issues"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["helixworld*"]
