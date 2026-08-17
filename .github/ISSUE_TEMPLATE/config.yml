@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Noiz AI
+    url: https://noiz.ai
+    about: Company site
+  - name: AudioX-Turbo
+    url: https://github.com/NoizAI/AudioX-Turbo
+    about: Related anything-to-audio generation (already released)
