@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "repository": "NoizAI/HelixWorld-preview",
+  "revision": "0f6aa9f329a118fcf0e16e0d315da026455ad8da",
+  "deployment": "helixworld_preview_v1",
+  "files": {
+    "model": {
+      "path": "weights/model.safetensors",
+      "size_bytes": 47786572158,
+      "sha256": "23f91eaea3af6857d934d8eae9799e49a735972c9a096eea86010bc9ed79b450",
+      "tensor_count": 6047
+    }
+  },
+  "text_encoder": {
+    "repo_id": "google/gemma-3-12b-it-qat-q4_0-unquantized",
+    "revision": "68f7ee4fbd59087436ada77ed2d62f373fdd4482"
+  }
+}

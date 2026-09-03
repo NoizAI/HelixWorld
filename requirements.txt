@@ -1,0 +1,15 @@
+av==16.1.0
+einops==0.8.1
+huggingface-hub[hf-xet]==0.36.0
+numpy==2.4.1
+opencv-python==4.13.0.90
+pillow==12.1.0
+pydantic==2.12.5
+rich==14.2.0
+safetensors==0.7.0
+scipy==1.17.0
+sentencepiece==0.2.1
+torch==2.9.1
+torchaudio==2.9.1
+torchvision==0.24.1
+transformers==4.57.6

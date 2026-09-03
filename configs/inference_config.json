@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "model_family": "HelixWorld joint audio-video camera/action",
+  "deployment": "helixworld_preview_v1",
+  "dtype": "bfloat16",
+  "model": {
+    "repo_id": "NoizAI/HelixWorld-preview",
+    "filename": "weights/model.safetensors",
+    "checkpoint_files": 1
+  },
+  "text_encoder": {
+    "repo_id": "google/gemma-3-12b-it-qat-q4_0-unquantized",
+    "revision": "68f7ee4fbd59087436ada77ed2d62f373fdd4482"
+  },
+  "generation": {
+    "width": 768,
+    "height": 512,
+    "fps": 24,
+    "generated_frames_per_turn": 121,
+    "audio_video_joint_generation": true
+  },
+  "caption": {
+    "component_order": ["caption_video", "caption_audio", "caption_av"],
+    "canonical_template": "Video description:\n{caption_video}\n\nAudio description:\n{caption_audio}\n\nJoint audio-visual description:\n{caption_av}"
+  },
+  "controls": {
+    "camera_action_required": true,
+    "supported_keys": ["W", "A", "S", "D", "left", "right", "up", "down"],
+    "combination_separator": "+"
+  }
+}
