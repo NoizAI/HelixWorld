@@ -85,4 +85,8 @@ Actions: `W` `A` `S` `D` `left` `right` `up` `down` `stop`. Combine with `+` (`W
 
 ## License
 
-Code is [Apache 2.0](LICENSE). The weight license is published with the [Preview v1 checkpoint](https://huggingface.co/NoizAI/HelixWorld-preview).
+HelixWorld-authored code is released under [Apache 2.0](LICENSE).
+
+The vendored LTX-2 source under `code/LTX-2.3/packages/` is not covered by that grant: it remains under the LTX-2 Community License Agreement in [`code/LTX-2.3/LICENSE`](code/LTX-2.3/LICENSE). See [`NOTICE.md`](NOTICE.md).
+
+The [Preview v1 checkpoint](https://huggingface.co/NoizAI/HelixWorld-preview) is derived from LTX-2.3. Its transformer, audio/video autoencoder, vocoder and embeddings-processor weights are governed by the LTX-2 Community License Agreement rather than Apache 2.0. The separately downloaded Gemma text encoder and other Hugging Face assets remain under their own terms.
