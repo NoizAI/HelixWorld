@@ -75,12 +75,11 @@ Actions: `W` `A` `S` `D` `left` `right` `up` `down` `stop`. Combine with `+` (`W
 ## Citation
 
 ```bibtex
-@misc{helixworld2026,
-  title        = {HelixWorld: A Real-Time Interactive Audio-Visual World Model},
-  author       = {{Noiz AI}},
-  year         = {2026},
-  howpublished = {\url{https://github.com/NoizAI/HelixWorld}},
-  note         = {Preview v1 released; technical report, full model, and training code forthcoming}
+@article{ke2026helixworld,
+  title={HelixWorld: A Real-time Interactive Audio-Visual World Model},
+  author={Ke, Lei and Pan, Jiahao and Tian, Zeyue and Wang, Jiaming and Huang, Haoyuan and Wu, Kam Man and Fang, Pengjun and Liu, Hongyu and Qi, Chenyang and Wang, Lin and others},
+  journal={arXiv preprint arXiv:2609.38123},
+  year={2026}
 }
 ```
 
