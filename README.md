@@ -4,6 +4,10 @@
 
 # HelixWorld
 
+<p align="center">
+  English | <a href="README_zh.md">简体中文</a>
+</p>
+
 **HelixWorld** is a real-time interactive audio-visual world model from [Noiz AI](https://noiz.ai).
 
 Give it an image and a prompt. Walk forward or turn around — picture and sound update together. The spatial field turns with the camera. Audio is not a soundtrack laid on afterwards.
@@ -86,3 +90,14 @@ Actions: `W` `A` `S` `D` `left` `right` `up` `down` `stop`. Combine with `+` (`W
 ## License
 
 Code is [Apache 2.0](LICENSE). The weight license is published with the [Preview v1 checkpoint](https://huggingface.co/NoizAI/HelixWorld-preview).
+
+## Community
+
+Join our user groups to share results, ask questions, and get the latest updates.
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/qr_wechat.png" alt="WeChat group QR code" width="200"><br><b>WeChat</b></td>
+    <td align="center"><img src="assets/qr_discord.png" alt="Discord QR code" width="200"><br><b>Discord</b></td>
+  </tr>
+</table>
