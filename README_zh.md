@@ -15,6 +15,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2609.38123"><img src="https://img.shields.io/badge/arXiv-2609.38123-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
   <a href="https://huggingface.co/NoizAI/HelixWorld-preview"><img src="https://img.shields.io/badge/Hugging%20Face-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"></a>
+  <a href="https://huggingface.co/datasets/NoizAI/Helixbench"><img src="https://img.shields.io/badge/Dataset-HelixBench-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="HelixBench"></a>
   <a href="https://helixworld.org/"><img src="https://img.shields.io/badge/Demo-helixworld.org-5b8def.svg?style=flat-square" alt="在线体验"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat-square" alt="License"></a>
 </p>
@@ -57,7 +58,7 @@ HelixWorld 是一个实时交互式音视频世界模型，在用户交互过程
 
 ### 2. 相机对齐的空间音频
 
-连续的 6-DoF 相机位姿通过投影相对位置编码（PRoPE）注入视频分支，再由跨模态注意力将视觉几何与声学特征绑定，从而把相机自身运动自然地转化为真实的立体声声像偏移。HelixBench 用于评估生成的声场能否跟随视角的动态变化。在该基准上，HelixWorld 的空间声学一致性优于 EchoWM 及级联的视频到音频（V2A）配音方案。
+连续的 6-DoF 相机位姿通过投影相对位置编码（PRoPE）注入视频分支，再由跨模态注意力将视觉几何与声学特征绑定，从而把相机自身运动自然地转化为真实的立体声声像偏移。[HelixBench](https://huggingface.co/datasets/NoizAI/Helixbench) 用于评估生成的声场能否跟随视角的动态变化。在该基准上，HelixWorld 的空间声学一致性优于 EchoWM 及级联的视频到音频（V2A）配音方案。
 
 ![HelixBench 空间声学一致性](assets/figures/06_spatial_score.png)
 

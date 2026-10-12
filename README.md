@@ -15,6 +15,7 @@ Give it an image and a prompt. Walk forward or turn around — picture and sound
 <p align="center">
   <a href="https://arxiv.org/abs/2609.38123"><img src="https://img.shields.io/badge/arXiv-2609.38123-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
   <a href="https://huggingface.co/NoizAI/HelixWorld-preview"><img src="https://img.shields.io/badge/Hugging%20Face-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"></a>
+  <a href="https://huggingface.co/datasets/NoizAI/Helixbench"><img src="https://img.shields.io/badge/Dataset-HelixBench-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="HelixBench"></a>
   <a href="https://helixworld.org/"><img src="https://img.shields.io/badge/Demo-helixworld.org-5b8def.svg?style=flat-square" alt="Live demo"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat-square" alt="License"></a>
 </p>
@@ -57,7 +58,7 @@ HelixWorld is a real-time interactive audio-visual world model in which visual s
 
 ### 2. Camera-Aligned Spatial Audio
 
-Continuous 6-DoF camera poses are injected into the video branch via Projective Relative Positional Encoding (PRoPE), and cross-modal attention binds visual geometry with acoustic features, naturally transferring camera ego-motion into realistic stereo panning. On HelixBench, which evaluates whether synthesized sound fields track dynamic viewpoint motion, HelixWorld surpasses both EchoWM and cascaded video-to-audio (V2A) dubbing pipelines in spatial-acoustic consistency.
+Continuous 6-DoF camera poses are injected into the video branch via Projective Relative Positional Encoding (PRoPE), and cross-modal attention binds visual geometry with acoustic features, naturally transferring camera ego-motion into realistic stereo panning. On [HelixBench](https://huggingface.co/datasets/NoizAI/Helixbench), which evaluates whether synthesized sound fields track dynamic viewpoint motion, HelixWorld surpasses both EchoWM and cascaded video-to-audio (V2A) dubbing pipelines in spatial-acoustic consistency.
 
 ![Spatial-acoustic consistency on HelixBench](assets/figures/06_spatial_score.png)
 
