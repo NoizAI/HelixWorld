@@ -49,14 +49,33 @@ Continuous generation across 8 scenes. The keys on the left show movement; the k
 
 ## Highlights
 
-| | HelixWorld |
-| --- | --- |
-| Roaming / camera navigation | Yes |
-| Joint audio-video | Yes |
-| Spatial sound field | Follows viewpoint |
-| Interactive demo | [helixworld.org](https://helixworld.org/) |
-| Offline inference | Preview v1 |
-| Full model, training, and report | Coming soon |
+### 1. Audio-Visual Synchronization
+
+HelixWorld is a real-time interactive audio-visual world model in which visual scenes and camera-grounded spatial stereo sound co-evolve natively under user interaction. In a drumming example with a visible pause, HelixWorld's transients subside during the pause and resume with the motion, whereas the post-hoc dubbing baseline AudioX produces a transient during the pause.
+
+![Audio-visual synchronization during drumming](assets/figures/05_av_sync_drums.png)
+
+### 2. Camera-Aligned Spatial Audio
+
+Continuous 6-DoF camera poses are injected into the video branch via Projective Relative Positional Encoding (PRoPE), and cross-modal attention binds visual geometry with acoustic features, naturally transferring camera ego-motion into realistic stereo panning. On HelixBench, which evaluates whether synthesized sound fields track dynamic viewpoint motion, HelixWorld surpasses both EchoWM and cascaded video-to-audio (V2A) dubbing pipelines in spatial-acoustic consistency.
+
+![Spatial-acoustic consistency on HelixBench](assets/figures/06_spatial_score.png)
+
+### 3. Real-Time Inference on a Single GPU
+
+On a single NVIDIA H800 GPU, HelixWorld achieves a steady-state real-time factor (RTF) of 0.77 at 768×512 and 24 FPS, including video and audio decoding. On the WBench navigation split, it outperforms most open-source silent baselines in visual quality and control responsiveness.
+
+![Inference speed and visual quality](assets/figures/07_speed_vs_quality.png)
+
+### 4. User Study
+
+In a blind pairwise user study with audio, HelixWorld is preferred over all baselines by a clear margin, winning the majority of votes in every matchup.
+
+![User-study preferences](assets/figures/08_user_study.png)
+
+Under the same first frame and control inputs, HelixWorld retains scene structure during navigation and motion reversal:
+
+![Visual comparison under interactive control](assets/figures/09_visual_comparison.jpg)
 
 ## Code
 

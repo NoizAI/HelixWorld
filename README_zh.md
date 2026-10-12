@@ -49,14 +49,33 @@
 
 ## 核心特性
 
-| | HelixWorld |
-| --- | --- |
-| 场景漫游 / 镜头控制 | ✅ |
-| 音视频联合生成 | ✅ |
-| 空间声场 | 随视角实时变化 |
-| 在线交互体验 | [helixworld.org](https://helixworld.org/) |
-| 离线推理 | Preview v1 |
-| 完整模型、训练代码及报告 | 即将推出 |
+### 1. 音画同步
+
+HelixWorld 是一个实时交互式音视频世界模型，在用户交互过程中，视觉场景与相机对齐的空间立体声原生地协同演化。在包含明显停顿的打鼓示例中，HelixWorld 生成的瞬态声音在停顿期间减弱，并随动作恢复；而后处理配音基线 AudioX 在停顿期间仍会产生瞬态声音。
+
+![打鼓过程中的音画同步](assets/figures/05_av_sync_drums.png)
+
+### 2. 相机对齐的空间音频
+
+连续的 6-DoF 相机位姿通过投影相对位置编码（PRoPE）注入视频分支，再由跨模态注意力将视觉几何与声学特征绑定，从而把相机自身运动自然地转化为真实的立体声声像偏移。HelixBench 用于评估生成的声场能否跟随视角的动态变化。在该基准上，HelixWorld 的空间声学一致性优于 EchoWM 及级联的视频到音频（V2A）配音方案。
+
+![HelixBench 空间声学一致性](assets/figures/06_spatial_score.png)
+
+### 3. 单卡实时推理
+
+在单张 NVIDIA H800 上，HelixWorld 以 768×512 分辨率、24 FPS 运行，稳态实时因子（RTF）为 0.77（含视频与音频解码）。在 WBench 导航评测中，其视觉质量与控制响应优于大多数开源无声基线。
+
+![推理速度与画面质量](assets/figures/07_speed_vs_quality.png)
+
+### 4. 用户研究
+
+在开启音频的成对盲测中，HelixWorld 以明显优势胜过所有基线，在每组对比中均获得多数投票。
+
+![用户研究偏好](assets/figures/08_user_study.png)
+
+在相同首帧与控制输入下，HelixWorld 在前进漫游与运动反向过程中均能保持场景结构：
+
+![交互控制下的画面对比](assets/figures/09_visual_comparison.jpg)
 
 ## 快速开始
 
