@@ -24,6 +24,29 @@ Give it an image and a prompt. Walk forward or turn around — picture and sound
 - **2026-09-29.** The **HelixWorld** technical report is now on [arXiv](https://arxiv.org/abs/2609.38123).
 - **2026-09-03.** We release **HelixWorld Preview v1** inference code and a preview checkpoint on [Hugging Face](https://huggingface.co/NoizAI/HelixWorld-preview). You can also roam an interactive world in the browser at [helixworld.org](https://helixworld.org/).
 
+## Showcase
+
+Continuous generation across 8 scenes. The keys on the left show movement; the keys on the right show camera control.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/03_savannah.webp" alt="Savannah Ride" width="100%"><br><b>Savannah Ride</b></td>
+    <td align="center" width="50%"><img src="assets/cases/04_crystal.webp" alt="Crystal Cave" width="100%"><br><b>Crystal Cave</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/05_studio.webp" alt="Sketch Studio" width="100%"><br><b>Sketch Studio</b></td>
+    <td align="center" width="50%"><img src="assets/cases/06_vineyard.webp" alt="Vineyard at Dusk" width="100%"><br><b>Vineyard at Dusk</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/07_paris.webp" alt="Pencil Paris" width="100%"><br><b>Pencil Paris</b></td>
+    <td align="center" width="50%"><img src="assets/cases/08_countryside.webp" alt="Country Lane" width="100%"><br><b>Country Lane</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/01_sunlit_street.webp" alt="Sunlit Street" width="100%"><br><b>Sunlit Street</b></td>
+    <td align="center" width="50%"><img src="assets/cases/02_fountain.webp" alt="Fountain Plaza" width="100%"><br><b>Fountain Plaza</b></td>
+  </tr>
+</table>
+
 ## Highlights
 
 | | HelixWorld |

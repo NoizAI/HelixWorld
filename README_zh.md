@@ -24,6 +24,29 @@
 - **2026-09-29**：**HelixWorld** 技术报告已在 [arXiv](https://arxiv.org/abs/2609.38123) 发布。
 - **2026-09-03**：开源 **HelixWorld Preview v1** 推理代码，预览版模型权重已上线 [Hugging Face](https://huggingface.co/NoizAI/HelixWorld-preview)。也可以直接访问 [helixworld.org](https://helixworld.org/)，在浏览器中漫游交互式世界。
 
+## 实机演示
+
+以下为 8 个场景的连续生成效果（左侧键位表示移动，右侧键位表示镜头视角）：
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/03_savannah.webp" alt="草原骑行" width="100%"><br><b>草原骑行</b></td>
+    <td align="center" width="50%"><img src="assets/cases/04_crystal.webp" alt="水晶洞穴" width="100%"><br><b>水晶洞穴</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/05_studio.webp" alt="素描画室" width="100%"><br><b>素描画室</b></td>
+    <td align="center" width="50%"><img src="assets/cases/06_vineyard.webp" alt="黄昏葡萄园" width="100%"><br><b>黄昏葡萄园</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/07_paris.webp" alt="铅笔巴黎" width="100%"><br><b>铅笔巴黎</b></td>
+    <td align="center" width="50%"><img src="assets/cases/08_countryside.webp" alt="乡间小路" width="100%"><br><b>乡间小路</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="assets/cases/01_sunlit_street.webp" alt="阳光街道" width="100%"><br><b>阳光街道</b></td>
+    <td align="center" width="50%"><img src="assets/cases/02_fountain.webp" alt="喷泉广场" width="100%"><br><b>喷泉广场</b></td>
+  </tr>
+</table>
+
 ## 核心特性
 
 | | HelixWorld |
