@@ -15,13 +15,14 @@ Give it an image and a prompt. Walk forward or turn around — picture and sound
 <p align="center">
   <a href="https://arxiv.org/abs/2609.38123"><img src="https://img.shields.io/badge/arXiv-2609.38123-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
   <a href="https://huggingface.co/NoizAI/HelixWorld-preview"><img src="https://img.shields.io/badge/Hugging%20Face-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"></a>
-  <a href="https://huggingface.co/datasets/NoizAI/Helixbench"><img src="https://img.shields.io/badge/Dataset-HelixBench-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="HelixBench"></a>
+  <a href="https://huggingface.co/datasets/NoizAI/Helixbench"><img src="https://img.shields.io/badge/Benchmark-HelixBench-ffcc4d.svg?style=flat-square&logo=huggingface&logoColor=black" alt="HelixBench"></a>
   <a href="https://helixworld.org/"><img src="https://img.shields.io/badge/Demo-helixworld.org-5b8def.svg?style=flat-square" alt="Live demo"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat-square" alt="License"></a>
 </p>
 
 ## News
 
+- **2026-10-12.** We release **HelixBench**, our benchmark for interactive audio-visual world models, on [Hugging Face](https://huggingface.co/datasets/NoizAI/Helixbench). It evaluates whether synthesized sound fields track dynamic viewpoint motion.
 - **2026-09-29.** The **HelixWorld** technical report is now on [arXiv](https://arxiv.org/abs/2609.38123).
 - **2026-09-03.** We release **HelixWorld Preview v1** inference code and a preview checkpoint on [Hugging Face](https://huggingface.co/NoizAI/HelixWorld-preview). You can also roam an interactive world in the browser at [helixworld.org](https://helixworld.org/).
 
