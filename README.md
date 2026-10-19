@@ -141,7 +141,7 @@ Join our user groups to share results, ask questions, and get the latest updates
 
 <table align="center">
   <tr>
-    <td align="center"><img src="assets/qr_wechat.jpg" alt="WeChat group QR code" width="200"><br><b>WeChat</b></td>
+    <td align="center"><img src="assets/qr_wechat.png" alt="WeChat group QR code" width="200"><br><b>WeChat</b></td>
     <td align="center"><img src="assets/qr_discord.png" alt="Discord QR code" width="200"><br><b>Discord</b></td>
   </tr>
 </table>
