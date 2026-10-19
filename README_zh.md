@@ -149,7 +149,7 @@ CUDA_VISIBLE_DEVICES=0 ./run.sh \
 
 <table align="center">
   <tr>
-    <td align="center"><img src="assets/qr_wechat.jpg" alt="微信群二维码" width="200"><br><b>微信群</b></td>
+    <td align="center"><img src="assets/qr_wechat.png" alt="微信群二维码" width="200"><br><b>微信群</b></td>
     <td align="center"><img src="assets/qr_discord.png" alt="Discord 二维码" width="200"><br><b>Discord</b></td>
   </tr>
 </table>
