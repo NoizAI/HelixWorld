@@ -28,6 +28,8 @@ Give it an image and a prompt. Walk forward or turn around — picture and sound
 
 ## Showcase
 
+https://github.com/user-attachments/assets/3739c78c-346b-4bd5-b34c-262279ed8338
+
 Continuous generation across 8 scenes. The keys on the left show movement; the keys on the right show camera control.
 
 <table>
